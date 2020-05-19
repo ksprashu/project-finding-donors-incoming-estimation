@@ -57,5 +57,11 @@ The modified census dataset consists of approximately 32,000 data points, with e
 ### Result
 
 The list of potential donors that have an income predicted to be >50K was found using a tuned **Logistic Regression** model.
-The accuracy of the model was : 
-The F-Beta Score (beta = 0.5) was : 
+The accuracy of the best model was : 0.8418
+The F-Beta Score (beta = 0.5) was : 0.6832
+
+When using a **Support Vector Machine** on reduced feature dataset, I got the following performance.
+The accuracy of the best model was : 0.8446
+The F-Beta Score (beta = 0.5) was : 0.6925
+
+Interestingly, in this exercise, tuning the model didn't help improve performance / accuracy.
